@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Venera
+GenericName=Comic Reader
+Comment=Read local and network comics
+Exec=venera
+Icon=com.github.wgh136.venera
+Terminal=false
+Categories=Graphics;Viewer;
+Keywords=Flutter;comic;comics;manga;images;reader;
+StartupNotify=true

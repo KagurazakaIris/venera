@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.wgh136.venera</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <name>Venera</name>
+  <developer id="io.github.venera-app">
+    <name>Venera contributors</name>
+  </developer>
+  <summary>A comic reader for local and network comics</summary>
+  <description>
+    <p>Venera is a comic reader that supports local comics, network comic sources, favorites, downloads, tags, comments, and source scripts.</p>
+  </description>
+  <launchable type="desktop-id">com.github.wgh136.venera.desktop</launchable>
+  <url type="homepage">https://github.com/venera-app/venera</url>
+  <url type="bugtracker">https://github.com/venera-app/venera/issues</url>
+  <provides>
+    <binary>venera</binary>
+  </provides>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="1.6.3" date="2026-06-26" />
+  </releases>
+</component>

@@ -31,6 +31,13 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+/releases/
+
+# Local Flatpak outputs
+/.flatpak-builder/
+/repo/
+/result/
+*.flatpak
 
 # Symbolication related
 app.*.symbols
