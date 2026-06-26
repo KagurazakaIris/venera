@@ -3,6 +3,7 @@ runtime: org.gnome.Platform
 runtime-version: '48'
 sdk: org.gnome.Sdk
 command: venera
+appstream-compose: false
 
 finish-args:
   - --share=ipc
