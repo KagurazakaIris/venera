@@ -35,11 +35,11 @@ modules:
     build-commands:
       - install -Dm644 com.github.wgh136.venera.desktop /app/share/applications/com.github.wgh136.venera.desktop
       - install -Dm644 com.github.wgh136.venera.metainfo.xml /app/share/metainfo/com.github.wgh136.venera.metainfo.xml
-      - install -Dm644 app_icon.png /app/share/icons/hicolor/1024x1024/apps/com.github.wgh136.venera.png
+      - install -Dm644 app_icon_512.png /app/share/icons/hicolor/512x512/apps/com.github.wgh136.venera.png
     sources:
       - type: file
         path: com.github.wgh136.venera.desktop
       - type: file
         path: com.github.wgh136.venera.metainfo.xml
       - type: file
-        path: ../assets/app_icon.png
+        path: ../macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png
